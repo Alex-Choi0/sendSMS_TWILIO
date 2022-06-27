@@ -1,3 +1,4 @@
+// ./sms.js
 require("dotenv").config(); // 환경변수파일을 불러온다
 const accountSid = process.env.TWILIO_SID; // TWILIO에서 받은 SID코드를 입력
 const authToken = process.env.TWILIO_AT; // TWILIO에서 받은 AT코드 입력
@@ -10,4 +11,4 @@ client.messages
     from: process.env.TWILIO_FROM, // 보내는 사람의 번호
     to: process.env.TWILIO_TO, // 받는 사람의 번호
   })
-  .then((message) => console.log(message));
+  .then((message) => console.log(message)); // TWILIO 응답 결과

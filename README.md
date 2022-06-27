@@ -1,4 +1,5 @@
 <p>참고 사이트</p>
+<a href="https://engineeringshw.blogspot.com/2022/06/node-twilio-sms.html" target="_blank">Blog 글</a>
 <a href="https://www.twilio.com/docs/sms/quickstart/node" target="_blank">twilio공식 문서</a>
 <p><br /></p>
 <p><br /></p>
